@@ -483,8 +483,8 @@ a:hover {
   .toast {
 	visibility: hidden;
 	position: absolute;
-	top: -25%;
-	right:-10%;
+	top: 0;
+	right:0;
 	transform: translateX(-50%);
 	background-color: #555;
 	color: #fff;
@@ -493,11 +493,13 @@ a:hover {
 	font-size: 14px;
 	opacity: 0;
 	transition: opacity 0.3s;
+	width:75px;
   }
   
   .toast.show {
 	visibility: visible;
 	opacity: 1;
+	
   }
 
   @media only screen and (min-width: 769px) and (max-width: 983px) {
