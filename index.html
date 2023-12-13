@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/plugins/bootstrap/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href="assets/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
-  <title>Kidverz Template</title>
+  <title>VitalityX Template</title>
 </head>
 
 <body>
@@ -484,11 +484,15 @@
 
       // Function to handle hash change
       function onHashChange() {
-        var hash = window.location.hash;
-        if (hash !== '') {
-          activateLink(hash);
-        }
-      }
+    var hash = window.location.hash;
+    if (hash !== '') {
+      activateLink(hash);
+    } else {
+      // If no hash is present, activate the first link explicitly
+      var firstLink = $('#metismenu a:first-child').attr('href');
+      activateLink(firstLink);
+    }
+  }
 
       // Function to handle scroll event and activate link accordingly
       function onScroll() {

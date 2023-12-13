@@ -46,7 +46,7 @@ a:hover {
 }
 .sidebar-nav {
   width: var(--offcanvas-width);
-  margin-top:45px;
+  margin-top:62px;
   background:var(--primary)
 }
 .sidebar-link {
