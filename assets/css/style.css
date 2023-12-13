@@ -28,6 +28,7 @@ a
 }
 .navbar-container {
   width: 100%;
+  
   background: linear-gradient(to right,var(--primary), var(--secondary));
 }
 a {
