@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/plugins/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="assets/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <title>Kidverz Template</title>
+</head>
+
+<body>
+  <!-- top navigation bar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-container fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasExample">
+          <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
+        </button>
+        <a class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold px-3" href="#">
+          <img src="./assets/image/icon/VitalityX.png" class="mt-3" alt="" style="width: 120px; height: 40px;">
+          <p style="font-size: 14px;">Decomentation of version 1.0.0v</p>
+        </a>
+        <div class="flutter-icon">
+          <img src="./assets/image/icon/flutter.png" alt="" style="width: 40px; height: 40px;">
+          <img src="./assets/image/icon/android.png" alt="" style="width: 40px; height: 40px;">
+          <img src="./assets/image/icon/ios.png" alt="" style="width: 40px; height: 40px;">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- top navigation bar -->
+  <!-- offcanvas -->
+  <div class="offcanvas offcanvas-start sidebar-nav " tabindex="-1" id="sidebar">
+    <div class="offcanvas-body p-3 ">
+      <nav class="navbar-dark active-class">
+        <ul id="metismenu" class="list-unstyled p-3">
+          <li>
+            <a href="#introduction" class="menu-item" data-bs-dismiss="offcanvas">Introduction</a>
+          </li>
+          <li>
+            <a href="#basic-info" class="menu-item" data-bs-dismiss="offcanvas">Basic Info</a>
+          </li>
+          <li>
+            <a href="#directory" class="menu-item" data-bs-dismiss="offcanvas">Directory & files</a>
+          </li>
+
+          <li>
+            <a href="#run" class="menu-item" data-bs-dismiss="offcanvas">Run & Build</a>
+          </li>
+          <li>
+            <a href="#android-config" class="menu-item" data-bs-dismiss="offcanvas">Android Config</a>
+          </li>
+          <li>
+            <a href="#ios-config" class="menu-item" data-bs-dismiss="offcanvas">IOS Config</a>
+          </li>
+          <li class="mm-active">
+            <a href="#ui" class="menu-item has-arrow" href="#" aria-expanded="true">UI</a>
+            <ul class="nav-second-level list-unstyled">
+              <li><a href="#user-ui" data-bs-dismiss="offcanvas" data-bs-dismiss="offcanvas">User UI</a></li>
+              <li><a href="#admin-ui" data-bs-dismiss="offcanvas" data-bs-dismiss="offcanvas">Admin UI</a></li>
+              <li><a href="#trainer-ui" data-bs-dismiss="offcanvas" data-bs-dismiss="offcanvas">Trainer UI</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#contact-us" class="menu-item" data-bs-dismiss="offcanvas">Contact Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- offcanvas -->
+  <main class="content">
+    <section id="introduction">
+      <div class="main-content">
+        <div>
+          <h1 class="main-content-intro">Introduction</h1>
+          <div class="hr-tag"></div>
+          <p>NFTO is a mobile app UI kit for NFT marketplaces. This theme is perfect for any kind of NFT creation and exchange marketplace. NFTO has a wide range of pre-fixed features and options that can be easily modified with access to a large number of variations.
+            Its visually stunning and feature-filled theme comes ready with tons of functionalities, removing the need for developing a platform separately for front-end purposes.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="basic-info">
+      <div class="main-content">
+        <div>
+          <h1>Basic Information</h1>
+          <div class="hr-tag"></div>
+          <ul class="list-style">
+            <li>
+              <p>Flutter Version : </p> <span>3.3.8</span>
+            </li>
+            <li>
+              <p>Dart Version :</p> <span>2.18.4</span>
+            </li>
+            <li>
+              <p>Install Flutter :</p>
+              <ul>
+                <li>
+                  Windows : <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank">Vist this link</a>
+                </li>
+                <li>
+                  macOS : <a href="https://flutter.dev/docs/get-started/install/macos" target="_blank">Visit this link</a>
+                </li>
+                <li>
+                  Linux : <a href="https://flutter.dev/docs/get-started/install/linux" target="_blank">Visit this link</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p> Set up an editor : </p> <a href="https://docs.flutter.dev/get-started/editor" target="_blank">Visit this link</a>
+            </li>
+            <li>
+              <p>Build Our App :</p> <a href="https://flutter.dev/docs/get-started/test-drive" target="_blank">Visit this link</a>
+            </li>
+            <li>
+              <p>Change App Icon :</p>
+              <p>Go to the <span>"launcher"</span> folder under the <span>"assets"</span> folder, which can be found in the <span>"nfto"</span> folder. Then replace the png files with your own icon, background, and foreground.
+                Go to this folder</p>
+              <img src="./assets/image/change_app_icon.png" alt="" class="img-fluid">
+              <p>And Run below code to change the icon.</p>
+              <div class="code-snippet">
+                <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(0)">
+                <span>flutter pub get</span>
+                <span>flutter pub run <span>flutter_launcher_icons:main</span> </span>
+                <div class="toast" id="toast0">Copied!</div>
+              </div>
+            </li>
+            <li>
+              <p> Change App Name :</p>
+              <p>Go to the <strong> /nfto/pubspec.yaml </strong> file then change the app name.</p>
+              <img src="./assets/image/app-name.png" alt="" class="img-fluid">
+              <p>And Run below code to change the app name.</p>
+              <div class="code-snippet">
+                <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(1)">
+                <span>flutter pub get</span>
+                <span>flutter pub run flutter_app_name</span>
+                <div class="toast" id="toast1">Copied!</div>
+              </div>
+            </li>
+            <li>
+              <p> Add new language :</p>
+              <p>New languages have to be added in the localization folder. The new language also has to be introduced to the <span>app_localization.dart</span> file. </p>
+              <img src="./assets/image/localization.png" alt="" class="img-fluid">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="directory">
+      <div class="main-content">
+        <div>
+          <h1>Directory & files</h1>
+          <div class="hr-tag"></div>
+          <p>This is a screenshot of the entire directory of NFTO that contains all the necessary folders and files.</p>
+          <img src="./assets/image/full-folder.png" alt="" style="margin-left: 20px;" class="img-fluid">
+          <p>You can find the <span> src </span>folder and <span>main.dart</span> file under the <span>lib</span> folder.</p>
+          <img src="./assets/image/lib-folder.png" alt="" style="margin-left: 20px;" class="img-fluid">
+          <p>Go to the <span>src</span> folder in order to get access to the following folders:</p>
+          <ul>
+            <li>core</li>
+            <li>data</li>
+            <li>localization</li>
+            <li>models</li>
+            <li>modules</li>
+            <li>route</li>
+            <li>service</li>
+            <li>theme</li>
+          </ul>
+          <img src="./assets/image/src-folder-two.png" alt="" style="margin-left: 20px; margin-top: 10px;" class="img-fluid">
+          <p>
+            The <span>core</span> folder contains the following folders:
+          <ul>
+            <li>constants <span style="font-weight: 400;">(for constant variables)</span>
+            </li>
+            <li>reusableComponents <span style="font-weight: 400;">(can be used in different parts of the app for different UI instances)</span></li>
+            <li> utils <span></span></li>
+          </ul>
+          </p>
+          <img src="./assets/image/core-folder-two.png" alt="" style="margin-left: 20px;" class="img-fluid">
+          <p>
+            The <span>data</span> folder contains source data from both local and API and the dummy dataset on the app. Files in the models folder are used for releasing a set of information.
+          </p>
+          <img src="./assets/image/data-folder.png" alt="" style="margin-left: 20px;" class="img-fluid">
+          <p>The modules folder can be divided into:</p>
+          <ul>
+            <li>Controller <span style="font-weight: 400;">(logical part of the app)</span></li>
+            <li>Page <span style="font-weight: 400;">(defines the visual part of the app and contains the widget folder)</span></li>
+            <li>Binding <span style="font-weight: 400;">(connecting the logical and visual parts)</span></li>
+          </ul>
+          <img src="./assets/image/modules-folder.png" alt="" style="margin-left: 20px; margin-top: 10px;" class="img-fluid">
+          <p>The route folder contains:
+          </p>
+          <ul>
+            <li>App pages
+            </li>
+            <li>App routes</li>
+          </ul>
+          <p><strong>pubspec.yaml(File)</strong> - Specification file (All the package and local assets (Like Images, Fonts, etc.) we use in this application is specify in this file.).
+          </p>
+          <p style="font-weight: 700; color: black;">Packages (Dependencies)</p>
+          <img src="./assets/image/package-two.png" alt="" class="img-fluid" style="margin-left: 20px;">
+          <p style="font-weight: 700; color: black;">Assets</p>
+          <img src="./assets/image/assets_pub.jpg" alt="" class="img-fluid" style="margin-left: 20px;">
+        </div>
+      </div>
+    </section>
+    <section id="run">
+      <div class="main-content">
+        <div>
+          <h1>Run & Build</h1>
+          <div class="hr-tag"></div>
+          <h2>Run Android App</h2>
+          <p>1- In the target selector, select an Android device for running the app. If none are listed as available, select Tools> Android > AVD Manager and create one there. For details, see Managing AVDs.</p>
+          <p>Click the run icon in the toolbar, or invoke the menu item Run > Run. Locate the main Android Studio toolbar:</p>
+          <img src="./assets/image/run.png" alt="" class="img-fluid">
+          <p>2- If you don't use Android Studio or IntelliJ you can use the command line to run your application using the following command</p>
+          <div class="code-snippet">
+            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(2)">
+            <span>flutter run</span>
+            <div class="toast" id="toast2">Copied!</div>
+          </div>
+          <h2>Build and Install App</h2>
+          <p>1- After you make all your changes and customizations save all your project, Open the console, navigate to your project folder and execute the following command to build your app</p>
+          <div class="code-snippet">
+            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(3)">
+            <span>flutter build apk --release</span>
+            <div class="toast" id="toast3">Copied!</div>
+          </div>
+          <h2>Run iOS App</h2>
+          <div class="code-snippet">
+            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(4)">
+            <span>flutter clean <br>
+              flutter pub get</span>
+            <div class="toast" id="toast4">Copied!</div>
+          </div>
+          <p>Open the root-folder/ios folder in terminal and run </p>
+          <div class="code-snippet">
+            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(5)">
+            <span>pod install</span>
+            <div class="toast" id="toast5">Copied!</div>
+          </div>
+          <p>After that, you should get the POD on your project. Chose a simulator and run your app
+          </p>
+          <img src="./assets/image/pod.png" alt="" class="img-fluid">
+          <h2>Installation</h2>
+          <div class="hr-tag"></div>
+          <p>First, add flutter_share as a dependency in your pubspec.yaml file.</p>
+          <h3>iOS</h3>
+          <p>Add if not exists one row to the ios/podfile after target runner:</p>
+          <img src="./assets/image/code-two.png" alt="" class="img-fluid">
+          <h3>Android</h3>
+          <p>If you pretends to use the file share, you need to configure the file provider, this will give access to the files turning possible to share with other applications.</p>
+          <p>Add to AndroidManifest.xml:</p>
+          <img src="./assets/image/code-three.png" alt="" class="img-fluid">
+          <p>Obs: You can change the android:name if you have an extension of file provider.</p>
+          <p>Add res/xml/provider_paths.xml:</p>
+          <img src="./assets/image/code-four.png" alt="" class="img-fluid">
+          <p>If you want to learn more about flutter_share you can visit this link: <a href="https://pub.dev/packages/flutter_share">Visit Link</a></p>
+        </div>
+      </div>
+    </section>
+    <section id="android-config">
+      <div class="main-content">
+        <div>
+          <h1>Android Config</h1>
+          <div class="hr-tag"></div>
+          <h2>Get Dependencies
+          </h2>
+          <p>And just run the following command</p>
+          <div class="code-snippet">
+            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(6)">
+            <span>flutter pub get</span>
+            <div class="toast" id="toast6">Copied!</div>
+          </div>
+          <h2>Change Package Name</h2>
+          <p>1 - Open /android/app/build.gradle and change the package name. Change <span style="color: red;">MinSdkVersion to 23</span> and <span style="color: red;"> compileSdkVersion to 33.</span></p>
+          <img src="./assets/image/package.png" alt="" class="img-fluid">
+          <p>2- Open <strong>/android/app/src/main/AndroidManifest.xml</strong>,<br> <strong>/android/app/src/profil/AndroidManifest.xml</strong>, <strong>/android/app/src/debug/AndroidManifest.xml </strong> and specify your:</p>
+          <h3>Your Package Name</h3>
+          <img src="./assets/image/manifest.png" alt="" class="img-fluid">
+          <p>3 - Open <strong>/android/app/src/main/kotlin/</strong>
+            <Your Package name folders>/MainActivity.kt and change the package name
+          </p>
+          <p>To learn more about changing package name</p> <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter" target="_blank">Visit this link</a>
+        </div>
+      </div>
+    </section>
+    <section id="ios-config">
+      <div class="main-content">
+        <div>
+          <h1>iOS Config</h1>
+          <div class="hr-tag"></div>
+          <h2>Get Dependencies</h2>
+          <p>And just run the following command</p>
+          <div class="code-snippet">
+            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(7)">
+            <span>flutter pub get</span>
+            <div class="toast" id="toast7">Copied!</div>
+          </div>
+          <h2>Display Name and Bundle identifier</h2>
+          <p>If you want to change the display name and bundle identifier follow the next steps</p>
+          <p>1 - Open the project with Xcode then go to your <root folder>/ios and open Runner.xcworkspace</p>
+          <p>2 - Change Display name and Bundle identifier in Targets > Runner change your application display and bundle identifier (the same bundle on GoogleServices-Info.plist ). then change the deployment info from 9.0 to IOS 11.0.</p>
+          <img src="./assets/image/iOS.png" alt="" class="img-fluid">
+          <h2>Configure the Info.plist</h2>
+          <p>1 - Open info.plist file with Xcode and change the Bundle name with your application name</p>
+          <p>2 - Add the REVERSED_CLIENT_ID (you get it from GoogleService-Info) at the URL Schemes -> item 0</p>
+          <p>3 - Add your domain in the App Transport Security Settings key.</p>
+          <img src="./assets/image/iOS-two.png" alt="" class="img-fluid">
+          <p>To learn more about changing package name</p> <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter" target="_blank">Visit this link</a>
+        </div>
+      </div>
+    </section>
+    <section id="ui">
+      <div class="main-content">
+        <div>
+          <h1>UI</h1>
+          <div class="hr-tag"></div>
+          <h2>User UI</h2>
+
+          <ul class="ui-list-style">
+            <li>
+              <p>Onboarding</p>
+              <span>These are the interface images for the three <span>Onboarding</span> screens. </span>
+              <div class="nft-ui">
+                <div>
+                  <img src="./assets/image/NFT/Onboarding/1.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/Onboarding/2.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/Onboarding/3.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/Onboarding/4.png" alt="">
+                </div>
+              </div>
+            </li>
+            <li>
+              <p>Authentrication</p>
+              <span>These are the interface images for the three <span>Authentrication</span> screens. </span>
+              <div class="nft-ui">
+                <div>
+                  <img src="./assets/image/NFT/auth/1.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/auth/2.png" alt="">
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <p>Home</p>
+              <span>This is the <span>Home</span> screen with its multiple sections.</span>
+              <div class="nft-ui">
+                <div>
+                  <img src="./assets/image/NFT/Home/1.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/Home/2.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/Home/3.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/Home/4.png" alt="">
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <p>My Profile</p>
+              <span>
+                This is the <span>My Profile</span> screen, where you can add a number of information and buttons, such as collections, activities, history, and details.</span>
+              <div class="nft-ui mb-4">
+                <div>
+                  <img src="./assets/image/NFT/profile/1.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/profile/2.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/profile/3.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/profile/4.png" alt="">
+                </div>
+
+              </div>
+              <div class="nft-ui mb-4">
+                <div>
+                  <img src="./assets/image/NFT/profile/5.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/profile/6.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/profile/7.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/profile/8.png" alt="">
+                </div>
+
+              </div>
+              <div class="nft-ui mb-4">
+                <div>
+                  <img src="./assets/image/NFT/profile/9.png" alt="">
+                </div>
+                <div>
+                  <img src="./assets/image/NFT/profile/10.png" alt="">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact-us">
+      <div class="main-content">
+        <div>
+          <h1>Contact Us</h1>
+          <div class="hr-tag"></div>
+          <p>Please do not hesitate to contact us if you have any queries regarding NFTO or its features and functionalities.</p>
+          <div class="contact-card">
+            <div class="contact-card-one">
+              <div class="contact-card-content">
+                <div>
+                  <img src="./assets/image/icon/pin.png" alt="" style="width: 70px; height: 70px; margin-bottom: 10px;">
+                </div>
+                <div>
+                  <h3>Address</h3>
+                  <p>13/P Mymensingh Ln, Dhaka 1000, Bangladesh</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-card-one">
+              <div class="contact-card-content">
+                <div>
+                  <img src="./assets/image/icon/receiver.png" alt="" style="width: 70px; height: 70px; margin-bottom: 10px;">
+                </div>
+                <div>
+                  <h3>Mobile</h3>
+                  <p><span>Mobile: </span> +8801305080507</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-card-one">
+              <div class="contact-card-content">
+                <div>
+                  <img src="./assets/image/icon/email.png" alt="" style="width: 70px; height: 70px; margin-bottom: 10px;">
+                </div>
+                <div>
+                  <h3>Contact</h3>
+                  <p> <span>Email:</span> admin@easital.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/plugins/jQuery/jquery.min.js"></script>
+  <script src="assets/plugins/metisMenu/metisMenu.min.js"></script>
+  <script type="text/javascript">
+    $("#metismenu").metisMenu();
+  </script>
+  <script>
+    $(document).ready(function () {
+      // Function to handle navigation link activation
+      function activateLink(hash) {
+        $('#metismenu a').removeClass('active'); // Remove active class from all links
+        $('a[href="' + hash + '"]').addClass('active'); // Add active class to the link with the matching hash
+      }
+
+      // Function to handle hash change
+      function onHashChange() {
+        var hash = window.location.hash;
+        if (hash !== '') {
+          activateLink(hash);
+        }
+      }
+
+      // Function to handle scroll event and activate link accordingly
+      function onScroll() {
+        var scrollPosition = $(document).scrollTop();
+
+        // Loop through each section and check if it's in the viewport
+        $('section').each(function () {
+          var currentSection = $(this);
+          var sectionTop = currentSection.offset().top;
+          var sectionId = currentSection.attr('id');
+
+          if (scrollPosition >= sectionTop - 200) {
+            // If the section is in view, activate its corresponding link
+            activateLink('#' + sectionId);
+          }
+        });
+      }
+
+      // Activate link on initial load if a hash is present
+      onHashChange();
+
+      // Listen for hash change events (e.g., when users click on links with hashes)
+      $(window).on('hashchange', onHashChange);
+
+      // Listen for scroll events to activate links based on the section in view
+      $(window).on('scroll', onScroll);
+    });
+
+
+  </script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+
+*{
+    padding:0;
+    margin:0;
+
+}
+
+a {
+  
+    text-decoration: none
+}
+
+a:active,
+a:focus,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+    color: #72afd2;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+nav
+{
+    width:100%;
+}
+.sidebar {
+    flex: 1 1 0;
+    width: 270px;
+    position: fixed;
+	background: #ffffff;
+    height: 100vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 100vh;
+}
+#metismenu .mm-active a
+{
+    border-radius: 0 30px 30px 0;
+    padding: 12px 20px;
+}
+
+#overview
+{
+    flex: 1 1 0;
+    padding: 2rem;
+    margin-left: 400px;
+	max-width: 1000px;
+}
+#overview-two
+{
+    flex: 1 1 0;
+    padding: 2rem;
+    margin-left: 400px;
+	max-width: 1000px;
+}
+
