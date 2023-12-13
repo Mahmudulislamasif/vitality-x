@@ -46,7 +46,7 @@ a:hover {
 }
 .sidebar-nav {
   width: var(--offcanvas-width);
-  margin-top:62px;
+  margin-top:58px;
   background:var(--primary)
 }
 .sidebar-link {
@@ -133,7 +133,11 @@ a:hover {
     margin-top:0px;
   }
 }
-
+.navbar-brand p
+{
+	font-size:11px;
+	
+}
 /* content */
 .content {
 	flex: 1 1 0;
