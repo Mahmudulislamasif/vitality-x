@@ -627,3 +627,21 @@ a:hover {
 {
 	cursor:pointer;
 }
+
+.feature-section p
+{
+	font-weight: 700;
+	display: inline;
+	color: #43484d;
+	margin-top:20px !important;
+} 
+.feature-section .hr-tag
+{
+	margin-bottom:20px;
+}  
+.feature-section li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #6b6f80;
+}
