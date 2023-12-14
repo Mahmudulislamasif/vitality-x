@@ -57,7 +57,7 @@
           </li>
           <li>
             <li class="mm-active">
-              <a href="#ui" class="menu-item has-arrow" href="#" aria-expanded="true">UI</a>
+              <a href="#ui" class="menu-item has-arrow" data-bs-dismiss="offcanvas" href="#" aria-expanded="true">UI</a>
               <ul class="nav-second-level list-unstyled">
                 <li><a href="#ui" data-bs-dismiss="offcanvas" data-bs-dismiss="offcanvas">User UI</a></li>
                 <li><a href="#admin-ui" data-bs-dismiss="offcanvas" data-bs-dismiss="offcanvas">Admin UI</a></li>
@@ -76,6 +76,7 @@
   </div>
   <!-- offcanvas -->
   <main class="content">
+    <!-- Start Introduction Section -->
     <section id="introduction">
       <div class="main-content">
         <div>
@@ -87,6 +88,9 @@
         </div>
       </div>
     </section>
+    <!-- End of Introduction Section -->
+
+    <!-- Start Basic Info Section -->
     <section id="basic-info">
       <div class="main-content">
         <div>
@@ -153,6 +157,7 @@
         </div>
       </div>
     </section>
+    <!-- End of Basic Info Section -->
     <section id="directory">
       <div class="main-content">
         <div>
@@ -444,179 +449,183 @@
             </li>
           </ul>
         </div>
-        <div id="admin-ui">
-          <h2>Admin UI</h2>
-          <ul class="ui-list-style">
-            <li>
-              <p>Home</p>
-              <span>This is the <span>Home</span> screen with its multiple sections.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/1.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/21.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/20.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/17.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/18.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/19.png" alt="" class="img-fluid">
-                  </div>
+      
+      </div>
+    </section>
+    <section id="admin-ui">
+      <div >
+        <h2>Admin UI</h2>
+        <div class="hr-tag"></div>
+        <ul class="ui-list-style">
+          <li>
+            <p>Home</p>
+            <span>This is the <span>Home</span> screen with its multiple sections.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/21.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/20.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/17.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/18.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/19.png" alt="" class="img-fluid">
                 </div>
               </div>
-            </li>
-            <li>
-              <p>Trainer</p>
-              <span>
-                This is the <span>Trainer</span> screen.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/1.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/22.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/23.png" alt="" class="img-fluid">
-                  </div>
-
+            </div>
+          </li>
+          <li>
+            <p>Trainer</p>
+            <span>
+              This is the <span>Trainer</span> screen.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/22.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/23.png" alt="" class="img-fluid">
+                </div>
+  
+              </div>
+            </div>
+  
+          </li>
+          <li>
+            <p>Admin Profile</p>
+            <span>
+              This is the <span>My Profile</span> screen, where you can add a number of information and buttons, such as collections, activities, history, and details.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/25.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/26.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/27.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/28.png" alt="" class="img-fluid">
+                </div>
+  
+              </div>
+            </div>
+          </li>
+  
+        </ul>
+      </div>
+    </section>
+    <section id="trainer-ui">
+      <div>
+        <h2>Trainer UI</h2>
+        <div class="hr-tag"></div>
+        <ul class="ui-list-style">
+          <li>
+            <p>Home</p>
+            <span>This is the <span>Trainer</span> screen with its multiple sections.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/21.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/20.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/17.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/18.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/Admin/Admin/19.png" alt="" class="img-fluid">
                 </div>
               </div>
-
-            </li>
-            <li>
-              <p>Admin Profile</p>
-              <span>
-                This is the <span>My Profile</span> screen, where you can add a number of information and buttons, such as collections, activities, history, and details.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/25.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/26.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/27.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/28.png" alt="" class="img-fluid">
-                  </div>
-
+            </div>
+          </li>
+          <li>
+            <p>Challange</p>
+            <span>
+              This is the <span>Challange</span> screen.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/27.png" alt="" class="img-fluid">
+                </div>
+  
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/31.png" alt="" class="img-fluid">
                 </div>
               </div>
-            </li>
-
-          </ul>
-        </div>
-        <div id="trainer-ui">
-
-          <h2>Trainer UI</h2>
-
-          <ul class="ui-list-style">
-
-            <li>
-              <p>Home</p>
-              <span>This is the <span>Trainer</span> screen with its multiple sections.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/1.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/21.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/20.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/17.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/18.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/Admin/Admin/19.png" alt="" class="img-fluid">
-                  </div>
+            </div>
+  
+          </li>
+          <li>
+            <p>Session</p>
+            <span>
+              This is the <span>Challange</span> screen.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/30.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/29.png" alt="" class="img-fluid">
                 </div>
               </div>
-            </li>
-            <li>
-              <p>Challange</p>
-              <span>
-                This is the <span>Challange</span> screen.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/27.png" alt="" class="img-fluid">
-                  </div>
-
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/31.png" alt="" class="img-fluid">
-                  </div>
+            </div>
+          </li>
+          <li>
+            <p>Recipe</p>
+            <span>
+              This is the <span>Recipe</span> screen.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/33.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/32.png" alt="" class="img-fluid">
                 </div>
               </div>
-
-            </li>
-            <li>
-              <p>Session</p>
-              <span>
-                This is the <span>Challange</span> screen.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/30.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/29.png" alt="" class="img-fluid">
-                  </div>
+            </div>
+          </li>
+          <li>
+            <p>Profile</p>
+            <span>
+              This is the <span>Profile</span> screen.</span>
+            <div class="container nft-ui">
+              <div class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/35.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/36.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                  <img src="./assets/image/NFT/trainer/34.png" alt="" class="img-fluid">
                 </div>
               </div>
-            </li>
-            <li>
-              <p>Recipe</p>
-              <span>
-                This is the <span>Recipe</span> screen.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/33.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/32.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <p>Profile</p>
-              <span>
-                This is the <span>Profile</span> screen.</span>
-              <div class="container nft-ui">
-                <div class="row g-4">
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/35.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/36.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-12 col-md-4 col-lg-3 col-sm-6">
-                    <img src="./assets/image/NFT/trainer/34.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
     <section id="contact-us">
@@ -671,51 +680,63 @@
     $("#metismenu").metisMenu();
   </script>
   <script>
-    $(document).ready(function () {
-      // Function to handle navigation link activation
-      function activateLink(hash) {
+  $(document).ready(function () {
+    // Function to handle navigation link activation
+    function activateLink(hash) {
         $('#metismenu a').removeClass('active'); // Remove active class from all links
-        $('a[href="' + hash + '"]').addClass('active'); // Add active class to the link with the matching hash
-      }
 
-      // Function to handle hash change
-      function onHashChange() {
+        var $targetLink = $('a[href="' + hash + '"]');
+        $targetLink.addClass('active'); // Add active class to the link with the matching hash
+
+        // Check if the link has a parent with the 'has-arrow' class and activate the parent
+        var $parent = $targetLink.closest('.has-arrow').children('.menu-item');
+        $parent.addClass('active');
+
+        // Activate the parent of the clicked child if it's in a nested menu
+        var $nestedParent = $targetLink.closest('.nav-second-level').siblings('.menu-item');
+        $nestedParent.addClass('active');
+    }
+
+    // Function to handle hash change
+    function onHashChange() {
         var hash = window.location.hash;
         if (hash !== '') {
-          activateLink(hash);
+            activateLink(hash);
         } else {
-          // If no hash is present, activate the first link explicitly
-          var firstLink = $('#metismenu a:first-child').attr('href');
-          activateLink(firstLink);
+            // If no hash is present, activate the first link explicitly
+            var firstLink = $('#metismenu a:first-child').attr('href');
+            activateLink(firstLink);
         }
-      }
+    }
 
-      // Function to handle scroll event and activate link accordingly
-      function onScroll() {
+    // Function to handle scroll event and activate link accordingly
+    function onScroll() {
         var scrollPosition = $(document).scrollTop();
 
         // Loop through each section and check if it's in the viewport
         $('section').each(function () {
-          var currentSection = $(this);
-          var sectionTop = currentSection.offset().top;
-          var sectionId = currentSection.attr('id');
+            var currentSection = $(this);
+            var sectionTop = currentSection.offset().top;
+            var sectionId = currentSection.attr('id');
 
-          if (scrollPosition >= sectionTop - 200) {
-            // If the section is in view, activate its corresponding link
-            activateLink('#' + sectionId);
-          }
+            if (scrollPosition >= sectionTop - 200) {
+                // If the section is in view, activate its corresponding link
+                activateLink('#' + sectionId);
+            }
         });
-      }
+    }
 
-      // Activate link on initial load if a hash is present
-      onHashChange();
+    // Activate link on initial load if a hash is present
+    onHashChange();
 
-      // Listen for hash change events (e.g., when users click on links with hashes)
-      $(window).on('hashchange', onHashChange);
+    // Listen for hash change events (e.g., when users click on links with hashes)
+    $(window).on('hashchange', onHashChange);
 
-      // Listen for scroll events to activate links based on the section in view
-      $(window).on('scroll', onScroll);
-    });
+    // Listen for scroll events to activate links based on the section in view
+    $(window).on('scroll', onScroll);
+});
+
+
 
 
   </script>
