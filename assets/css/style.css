@@ -179,7 +179,7 @@ a:hover {
 }
 
 .content .list-style  {
-    margin: 1.2rem;
+    margin: 1.2rem 0rem;
 }
 
 .content .list-style li {
@@ -288,7 +288,7 @@ a:hover {
 .ui-list-style
 {
 	margin-bottom: 0.5rem;
-	margin-left: 20px;
+
 }
 
 .ui-list-style p
